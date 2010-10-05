@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E2FFE5;
+}
+img {
+    border-style: none;
+}
+
+/* to cheat: $(".cheat").css("display", "block"); */
+.cheat {
+    display: none;
+}
+
+#players {
+    width: 100%;
+    height: 180px;
+}
+
+#players > div {
+    width: 25%;
+    height: 180px;
+    float: left;
+}
+
+#player1 {
+    background-color: #E2FFE5;
+}
+
+#player2 {
+    background-color: #C7FFCD;
+}
+
+#player3 {
+    background-color: #A4FDAD;
+}
+
+#player4 {
+    background-color: #C7FFCD;
+}
+
+#boards {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+#boards > div {
+    width: 20%;
+    float: left;
+}
+
+#bottom {
+    width: 100%;
+    height: 200px;
+}
+
+#bottom > div {
+    float: left;;
+}
+
+#player0 {
+    width: 20%;
+}
+
+#general {
+    width: 60%;
+}
+
+#settings {
+    width: 20%;
+}
