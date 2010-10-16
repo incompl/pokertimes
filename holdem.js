@@ -291,10 +291,9 @@ function main() {
 }
 
 function handle_end_of_round() {
-    var candidates = [];
-    var allocations = [];
-    var my_total_bets_per_player = [];
-    
+    var candidates = new Array(players.length);
+    var allocations = new Array(players.length);
+    var my_total_bets_per_player = new Array(players.length);
     for (var i = 0; i < candidates.length; i++) {
         allocations[i] = 0;
         my_total_bets_per_player[i] = players[i].total_bet;
